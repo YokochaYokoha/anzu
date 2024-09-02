@@ -11,6 +11,11 @@
     "type":"img/png",
     "purpose": "any"
   },
+    [{
+    "src": "./ic.webp",
+    "sizes": "144x144",
+    "purpose": "any"
+  },
   {
     "src": "./ic2.png",
     "sizes": "512x512",
