@@ -17,7 +17,6 @@ const hozonfiles = [
   "./gsm.png",
   "./icon.png",
   "./orin.mp3",
-  "./play1.html",
   "./post.png",
   "./resetimg.png",
   "./retry.png",
