@@ -27,7 +27,7 @@ const hozonfiles = [
   './8.png',
   './banner1.png',
   './banner2.png',
-  './bannner3.png',
+  './banner3.png',
   './tutorial.js',
   './7.png'
 ];//リソースファイル群
