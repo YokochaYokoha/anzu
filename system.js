@@ -776,7 +776,7 @@ if(yarikomi4!=1)
          document.getElementById("res").style.display="block";//divを表示
          if(rev)
             {
-                const postingtxt=`今回は${kosuu}台 スマホをもらえました!   #あんずはあんずが食べたい https://yokochayokoha.github.io/anzu/setsumei`; //!!!???
+                const postingtxt=`今回は${kosuu}台 スマホをもらえました!   #あんずはあんずが食べたい https://yokochayokoha.github.io/anzu/`; //!!!???
                 const gen_url=`https://x.com/intent/tweet?text=${encodeURIComponent(postingtxt)}`;
                 //CoffeeブラウザーでもCoffeeSubでも使っているURIエンコードをしてます。(最近の端末ならしなくてもいいのですが、古いのだとしないと動いてくれません...)
                 document.getElementById("sender").href=gen_url;//ここでURLセット!
@@ -793,7 +793,7 @@ if(yarikomi4!=1)
 rirekisansyou();
 
         }
- document.getElementById("sender").style.display="block";
+ 
 
        
 
