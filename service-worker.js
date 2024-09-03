@@ -10,6 +10,7 @@ const hozonfiles = [
   "./anzu_backpic.png",
   "./anzulovesanzu.png",
   "./back2themain.png",
+  "./play1.html",
   "./bgm.mp3",
   "./eatsound.mp3",
   "./entranceofhinamode.png",
