@@ -783,7 +783,7 @@ if(yarikomi4!=1)
             }
          else
          {
-         const postingtxt=`今回は${kosuu}こ あんずを食べました! ごちそうさま! #あんずはあんずが食べたい https://yokochayokoha.github.io/anzu/setsumei`;
+         const postingtxt=`今回は${kosuu}こ あんずを食べました! ごちそうさま! #あんずはあんずが食べたい https://yokochayokoha.github.io/anzu/`;
          //投稿用テキスト生成。 英語版なくてごめんなさいっ!!  #AnzuWantsToEatAnzu
          const gen_url=`https://x.com/intent/tweet?text=${encodeURIComponent(postingtxt)}`;
          //CoffeeブラウザーでもCoffeeSubでも使っているURIエンコードをしてます。(最近の端末ならしなくてもいいのですが、古いのだとしないと動いてくれません...)
@@ -793,6 +793,7 @@ if(yarikomi4!=1)
 rirekisansyou();
 
         }
+ document.getElementById("sender").style.display="block";
 
        
 
