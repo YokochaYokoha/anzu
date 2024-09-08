@@ -186,7 +186,7 @@ button {
         .E
 {
 padding: 20px;
-background-color:mediumaquamarine;
+background-color:white;
 /*Coffeeブラウザー風丸角表示(card)*/
 border-radius: 15px;
 /*影(お洒落)*/
@@ -199,7 +199,20 @@ margin: 20px auto;
         .F
 {
 padding: 20px;
-background-color:teal;
+background-color:bisque;
+/*Coffeeブラウザー風丸角表示(card)*/
+border-radius: 15px;
+/*影(お洒落)*/
+box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+/*はみ出し阻止*/
+max-width: 900px;
+/*マージンを縦20px横自動で指定*/
+margin: 20px auto;
+}
+            .G
+{
+padding: 20px;
+background-color:#ffd480;
 /*Coffeeブラウザー風丸角表示(card)*/
 border-radius: 15px;
 /*影(お洒落)*/
@@ -272,8 +285,12 @@ margin: 20px auto;
 <p>PWAとしてインストールするには、スマホでは"ホーム画面に追加"または"インストール"を、PCではURLバー左端インストールボタンを押して下さい。Coffeeブラウザーの方は、Ver.19からゲームがブラウザー内に内蔵される予定ですので追加の操作は不要です。</p>
 <p>To install the game as a PWA, click "Add to Home Screen" or "Install" on your phone, or click the Install button on the left side of the URL bar on your PC.
     For Coffee Browser users, the game is built into the browser as of version 19, so no additional steps are required.</p>
-<button onclick="playstart()">遊ぶ!/Play it now!</button>
+
 </div>
+    <div class="G">
+
+      <button onclick="playstart()">遊ぶ!/Play it now!</button>  
+    </div>
     <br>
     <div class="E">
         <h3>Credits:</h3>
