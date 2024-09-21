@@ -819,8 +819,11 @@ rirekisansyou();
             const rect=canvas.getBoundingClientRect();
             anzuY=e.touches[0].clientY-rect.top-anzuchansizetate/2; //杏子ちゃんY位置=指Y位置-(HTML全体表示窓高さ-Canvasの上部の高さ[画面最上部とCanvasの上の隙間 alignに活用])-杏子ちゃんの中心Y(真ん中と指を追従させるため)
 
-         });//結論:マウスとタッチは別物!
-
+         },{passive:false});//結論:マウスとタッチは別物!
+ canvas.addEventListener("touchstart",(e)=>
+    {
+       e.preventDefault();//ウェブページスクロール無視
+    },{passive:false});//ウェブページスクロール無視(ここではりんご対策)
          //その2 ぎゃー、タッチはできるけど指押しながら上下できない!!!
          window.onscroll=()=> //今回は引数で受け取らないため、()。また、関数ではなく(Not function) 関数代入用プロパティなのでwindow.onscroll(()=>{});とせずに、=()=>。
          {
